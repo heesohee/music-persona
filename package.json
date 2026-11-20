@@ -1,0 +1,1 @@
+{"name":"music-persona","version":"1.0.0","private":true,"type":"module","scripts":{"build":"esbuild src/app.js --bundle --minify --outfile=docs/app.js && cp src/index.html src/style.css docs/","dev":"python3 -m http.server 5173 --directory docs"},"dependencies":{"ml-pca":"^4.1.1","umap-js":"^1.4.0","esbuild":"^0.28.2"}}
